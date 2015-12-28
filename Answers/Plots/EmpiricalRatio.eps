@@ -1,0 +1,1250 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.3.0.532 (R2014a). Operating System: Darwin 13.3.0 Darwin Kernel Version 13.3.0: Tue Jun  3 21:27:35 PDT 2014; root:xnu-2422.110.17~1/RELEASE_X86_64 x86_64.
+%%Title: /Users/Riashat/Documents/Cambridge MPHIL/TERM 1/4F13 Machine Learning/Coursework 2/Answers/Plots/EmpiricalRatio.eps
+%%CreationDate: 11/09/2015  18:17:25
+%%DocumentNeededFonts: Helvetica
+%%+ Helvetica-Bold
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:  -183    82   795   709
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:  -183    82   795   709
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode -2196 8508 csm
+
+    0     0 11736  7515 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 11737 7516 rf
+6 w
+0 6124 8974 0 0 -6124 1647 6688 4 MP
+PP
+-8974 0 0 6124 8974 0 0 -6124 1647 6688 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+1647 6688 mt 10621 6688 L
+1647  564 mt 10621  564 L
+1647 6688 mt 1647  564 L
+10621 6688 mt 10621  564 L
+1647 6688 mt 10621 6688 L
+1647 6688 mt 1647  564 L
+1647 6688 mt 1647 6598 L
+1647  564 mt 1647  653 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+1614 6833 mt 
+(0) s
+2544 6688 mt 2544 6598 L
+2544  564 mt 2544  653 L
+2461 6833 mt 
+(0.1) s
+3441 6688 mt 3441 6598 L
+3441  564 mt 3441  653 L
+3358 6833 mt 
+(0.2) s
+4339 6688 mt 4339 6598 L
+4339  564 mt 4339  653 L
+4256 6833 mt 
+(0.3) s
+5236 6688 mt 5236 6598 L
+5236  564 mt 5236  653 L
+5153 6833 mt 
+(0.4) s
+6134 6688 mt 6134 6598 L
+6134  564 mt 6134  653 L
+6051 6833 mt 
+(0.5) s
+7031 6688 mt 7031 6598 L
+7031  564 mt 7031  653 L
+6948 6833 mt 
+(0.6) s
+7928 6688 mt 7928 6598 L
+7928  564 mt 7928  653 L
+7845 6833 mt 
+(0.7) s
+8826 6688 mt 8826 6598 L
+8826  564 mt 8826  653 L
+8743 6833 mt 
+(0.8) s
+9723 6688 mt 9723 6598 L
+9723  564 mt 9723  653 L
+9640 6833 mt 
+(0.9) s
+10621 6688 mt 10621 6598 L
+10621  564 mt 10621  653 L
+10588 6833 mt 
+(1) s
+1647 6659 mt 1736 6659 L
+10621 6659 mt 10531 6659 L
+ 614 6703 mt 
+(Jean-Julien-Rojer) s
+1647 6602 mt 1736 6602 L
+10621 6602 mt 10531 6602 L
+ 691 6646 mt 
+(Robert-Lindstedt) s
+1647 6544 mt 1736 6544 L
+10621 6544 mt 10531 6544 L
+ 809 6588 mt 
+(Simon-Aspelin) s
+1647 6487 mt 1736 6487 L
+10621 6487 mt 10531 6487 L
+ 594 6531 mt 
+(Michael-Kohlmann) s
+1647 6430 mt 1736 6430 L
+10621 6430 mt 10531 6430 L
+ 709 6474 mt 
+(Rohan-Bopanna) s
+1647 6373 mt 1736 6373 L
+10621 6373 mt 10531 6373 L
+ 842 6417 mt 
+(Colin-Fleming) s
+1647 6315 mt 1736 6315 L
+10621 6315 mt 10531 6315 L
+ 367 6359 mt 
+(Juan-Sebastian-Cabal) s
+1647 6258 mt 1736 6258 L
+10621 6258 mt 10531 6258 L
+ 743 6302 mt 
+(Alexander-Peya) s
+1647 6201 mt 1736 6201 L
+10621 6201 mt 10531 6201 L
+ 902 6245 mt 
+(Mikhail-Elgin) s
+1647 6144 mt 1736 6144 L
+10621 6144 mt 10531 6144 L
+ 869 6188 mt 
+(Rui-Machado) s
+1647 6087 mt 1736 6087 L
+10621 6087 mt 10531 6087 L
+ 769 6131 mt 
+(Grigor-Dimitrov) s
+1647 6029 mt 1736 6029 L
+10621 6029 mt 10531 6029 L
+ 523 6073 mt 
+(Fernando-Gonzalez) s
+1647 5972 mt 1736 5972 L
+10621 5972 mt 10531 5972 L
+ 619 6016 mt 
+(Mikhail-Kukushkin) s
+1647 5915 mt 1736 5915 L
+10621 5915 mt 10531 5915 L
+ 864 5959 mt 
+(Dustin-Brown) s
+1647 5858 mt 1736 5858 L
+10621 5858 mt 10531 5858 L
+ 862 5902 mt 
+(Yen-Hsun-Lu) s
+1647 5800 mt 1736 5800 L
+10621 5800 mt 10531 5800 L
+ 879 5844 mt 
+(Igor-Kunitsyn) s
+1647 5743 mt 1736 5743 L
+10621 5743 mt 10531 5743 L
+ 849 5787 mt 
+(Denis-Istomin) s
+1647 5686 mt 1736 5686 L
+10621 5686 mt 10531 5686 L
+ 827 5730 mt 
+(Lleyton-Hewitt) s
+1647 5629 mt 1736 5629 L
+10621 5629 mt 10531 5629 L
+ 998 5673 mt 
+(Karol-Beck) s
+1647 5571 mt 1736 5571 L
+10621 5571 mt 10531 5571 L
+ 265 5615 mt 
+(Ruben-Ramirez-Hidalgo) s
+1647 5514 mt 1736 5514 L
+10621 5514 mt 10531 5514 L
+ 716 5558 mt 
+(Robert-Kendrick) s
+1647 5457 mt 1736 5457 L
+10621 5457 mt 10531 5457 L
+ 762 5501 mt 
+(Victor-Hanescu) s
+1647 5400 mt 1736 5400 L
+10621 5400 mt 10531 5400 L
+1048 5444 mt 
+(Pere-Riba) s
+1647 5343 mt 1736 5343 L
+10621 5343 mt 10531 5343 L
+ 797 5387 mt 
+(Michael-Llodra) s
+1647 5285 mt 1736 5285 L
+10621 5285 mt 10531 5285 L
+ 892 5329 mt 
+(Igor-Andreev) s
+1647 5228 mt 1736 5228 L
+10621 5228 mt 10531 5228 L
+ 796 5272 mt 
+(Olivier-Rochus) s
+1647 5171 mt 1736 5171 L
+10621 5171 mt 10531 5171 L
+ 276 5215 mt 
+(Guillermo-Garcia-Lopez) s
+1647 5114 mt 1736 5114 L
+10621 5114 mt 10531 5114 L
+ 785 5158 mt 
+(Carlos-Berlocq) s
+1647 5056 mt 1736 5056 L
+10621 5056 mt 10531 5056 L
+ 604 5100 mt 
+(Eduardo-Schwank) s
+1647 4999 mt 1736 4999 L
+10621 4999 mt 10531 4999 L
+ 829 5043 mt 
+(Potito-Starace) s
+1647 4942 mt 1736 4942 L
+10621 4942 mt 10531 4942 L
+ 696 4986 mt 
+(Thomaz-Bellucci) s
+1647 4885 mt 1736 4885 L
+10621 4885 mt 10531 4885 L
+ 796 4929 mt 
+(Michael-Berrer) s
+1647 4827 mt 1736 4827 L
+10621 4827 mt 10531 4827 L
+ 858 4871 mt 
+(Fabio-Fognini) s
+1647 4770 mt 1736 4770 L
+10621 4770 mt 10531 4770 L
+ 292 4814 mt 
+(Andreas-Haider-Maurer) s
+1647 4713 mt 1736 4713 L
+10621 4713 mt 10531 4713 L
+ 844 4757 mt 
+(Albert-Ramos) s
+1647 4656 mt 1736 4656 L
+10621 4656 mt 10531 4656 L
+ 625 4700 mt 
+(Adrian-Mannarino) s
+1647 4598 mt 1736 4598 L
+10621 4598 mt 10531 4598 L
+ 706 4642 mt 
+(Arnaud-Clement) s
+1647 4541 mt 1736 4541 L
+10621 4541 mt 10531 4541 L
+ 764 4585 mt 
+(Jeremy-Chardy) s
+1647 4484 mt 1736 4484 L
+10621 4484 mt 10531 4484 L
+ 882 4528 mt 
+(Robin-Haase) s
+1647 4427 mt 1736 4427 L
+10621 4427 mt 10531 4427 L
+ 816 4471 mt 
+(Simone-Bolelli) s
+1647 4370 mt 1736 4370 L
+10621 4370 mt 10531 4370 L
+ 685 4414 mt 
+(Jarkko-Nieminen) s
+1647 4312 mt 1736 4312 L
+10621 4312 mt 10531 4312 L
+ 346 4356 mt 
+(Somdev-K-Devvarman) s
+1647 4255 mt 1736 4255 L
+10621 4255 mt 10531 4255 L
+ 916 4299 mt 
+(Gilles-Muller) s
+1647 4198 mt 1736 4198 L
+10621 4198 mt 10531 4198 L
+ 798 4242 mt 
+(Xavier-Malisse) s
+1647 4141 mt 1736 4141 L
+10621 4141 mt 10531 4141 L
+ 677 4185 mt 
+(Horacio-Zeballos) s
+1647 4083 mt 1736 4083 L
+10621 4083 mt 10531 4083 L
+ 591 4127 mt 
+(Sergiy-Stakhovsky) s
+1647 4026 mt 1736 4026 L
+10621 4026 mt 10531 4026 L
+ 789 4070 mt 
+(Andreas-Seppi) s
+1647 3969 mt 1736 3969 L
+10621 3969 mt 10531 3969 L
+ 772 4013 mt 
+(Ryan-Sweeting) s
+1647 3912 mt 1736 3912 L
+10621 3912 mt 10531 3912 L
+ 916 3956 mt 
+(Lukas-Rosol) s
+1647 3854 mt 1736 3854 L
+10621 3854 mt 10531 3854 L
+ 697 3898 mt 
+(Albert-Montanes) s
+1647 3797 mt 1736 3797 L
+10621 3797 mt 10531 3797 L
+ 820 3841 mt 
+(Jurgen-Melzer) s
+1647 3740 mt 1736 3740 L
+10621 3740 mt 10531 3740 L
+ 829 3784 mt 
+(Pablo-Andujar) s
+1647 3683 mt 1736 3683 L
+10621 3683 mt 10531 3683 L
+ 544 3727 mt 
+(Alex-Bogomolov-Jr) s
+1647 3626 mt 1736 3626 L
+10621 3626 mt 10531 3626 L
+ 865 3670 mt 
+(Sam-Querrey) s
+1647 3568 mt 1736 3568 L
+10621 3568 mt 10531 3568 L
+ 560 3612 mt 
+(Nikolay-Davydenko) s
+1647 3511 mt 1736 3511 L
+10621 3511 mt 10531 3511 L
+ 615 3555 mt 
+(Marcos-Baghdatis) s
+1647 3454 mt 1736 3454 L
+10621 3454 mt 10531 3454 L
+1005 3498 mt 
+(Ivan-Dodig) s
+1647 3397 mt 1736 3397 L
+10621 3397 mt 10531 3397 L
+ 810 3441 mt 
+(Ryan-Harrison) s
+1647 3339 mt 1736 3339 L
+10621 3339 mt 10531 3339 L
+ 721 3383 mt 
+(Mikhail-Youzhny) s
+1647 3282 mt 1736 3282 L
+10621 3282 mt 10531 3282 L
+ 630 3326 mt 
+(Marcel-Granollers) s
+1647 3225 mt 1736 3225 L
+10621 3225 mt 10531 3225 L
+ 683 3269 mt 
+(Santiago-Giraldo) s
+1647 3168 mt 1736 3168 L
+10621 3168 mt 10531 3168 L
+ 514 3212 mt 
+(Juan-Ignacio-Chela) s
+1647 3110 mt 1736 3110 L
+10621 3110 mt 10531 3110 L
+ 588 3154 mt 
+(Philipp-Petzschner) s
+1647 3053 mt 1736 3053 L
+10621 3053 mt 10531 3053 L
+ 689 3097 mt 
+(Radek-Stepanek) s
+1647 2996 mt 1736 2996 L
+10621 2996 mt 10531 2996 L
+ 852 3040 mt 
+(Lukasz-Kubot) s
+1647 2939 mt 1736 2939 L
+10621 2939 mt 10531 2939 L
+ 894 2983 mt 
+(James-Blake) s
+1647 2881 mt 1736 2881 L
+10621 2881 mt 10531 2881 L
+ 454 2925 mt 
+(Philipp-Kohlschreiber) s
+1647 2824 mt 1736 2824 L
+10621 2824 mt 10531 2824 L
+ 793 2868 mt 
+(Ernests-Gulbis) s
+1647 2767 mt 1736 2767 L
+10621 2767 mt 10531 2767 L
+ 858 2811 mt 
+(Juan-Monaco) s
+1647 2710 mt 1736 2710 L
+10621 2710 mt 10531 2710 L
+ 708 2754 mt 
+(Dmitry-Tursunov) s
+1647 2653 mt 1736 2653 L
+10621 2653 mt 10531 2653 L
+ 919 2697 mt 
+(Ivan-Ljubicic) s
+1647 2595 mt 1736 2595 L
+10621 2595 mt 10531 2595 L
+ 949 2639 mt 
+(Marc-Lopez) s
+1647 2538 mt 1736 2538 L
+10621 2538 mt 10531 2538 L
+ 562 2582 mt 
+(Santiago-Gonzalez) s
+1647 2481 mt 1736 2481 L
+10621 2481 mt 10531 2481 L
+ 919 2525 mt 
+(Rajeev-Ram) s
+1647 2424 mt 1736 2424 L
+10621 2424 mt 10531 2424 L
+ 800 2468 mt 
+(Bernard-Tomic) s
+1647 2366 mt 1736 2366 L
+10621 2366 mt 10531 2366 L
+ 737 2410 mt 
+(Kevin-Anderson) s
+1647 2309 mt 1736 2309 L
+10621 2309 mt 10531 2309 L
+ 532 2353 mt 
+(Fernando-Verdasco) s
+1647 2252 mt 1736 2252 L
+10621 2252 mt 10531 2252 L
+ 959 2296 mt 
+(Ivo-Karlovic) s
+1647 2195 mt 1736 2195 L
+10621 2195 mt 10531 2195 L
+ 698 2239 mt 
+(Tommy-Robredo) s
+1647 2137 mt 1736 2137 L
+10621 2137 mt 10531 2137 L
+ 474 2181 mt 
+(Alexandr-Dolgopolov) s
+1647 2080 mt 1736 2080 L
+10621 2080 mt 10531 2080 L
+ 899 2124 mt 
+(Viktor-Troicki) s
+1647 2023 mt 1736 2023 L
+10621 2023 mt 10531 2023 L
+ 902 2067 mt 
+(Gilles-Simon) s
+1647 1966 mt 1736 1966 L
+10621 1966 mt 10531 1966 L
+ 739 2010 mt 
+(Feliciano-Lopez) s
+1647 1908 mt 1736 1908 L
+10621 1908 mt 10531 1908 L
+ 982 1952 mt 
+(Mardy-Fish) s
+1647 1851 mt 1736 1851 L
+10621 1851 mt 10531 1851 L
+ 843 1895 mt 
+(Pablo-Cuevas) s
+1647 1794 mt 1736 1794 L
+10621 1794 mt 10531 1794 L
+ 631 1838 mt 
+(David-Nalbandian) s
+1647 1737 mt 1736 1737 L
+10621 1737 mt 10531 1737 L
+ 838 1781 mt 
+(Andy-Roddick) s
+1647 1680 mt 1736 1680 L
+10621 1680 mt 10531 1680 L
+ 889 1724 mt 
+(Milos-Raonic) s
+1647 1622 mt 1736 1622 L
+10621 1622 mt 10531 1622 L
+ 684 1666 mt 
+(Janko-Tipsarevic) s
+1647 1565 mt 1736 1565 L
+10621 1565 mt 10531 1565 L
+1014 1609 mt 
+(Marin-Cilic) s
+1647 1508 mt 1736 1508 L
+10621 1508 mt 10531 1508 L
+1015 1552 mt 
+(John-Isner) s
+1647 1451 mt 1736 1451 L
+10621 1451 mt 10531 1451 L
+ 914 1495 mt 
+(Kei-Nishikori) s
+1647 1393 mt 1736 1393 L
+10621 1393 mt 10531 1393 L
+ 534 1437 mt 
+(Stanislas-Wawrinka) s
+1647 1336 mt 1736 1336 L
+10621 1336 mt 10531 1336 L
+ 847 1380 mt 
+(Florian-Mayer) s
+1647 1279 mt 1736 1279 L
+10621 1279 mt 10531 1279 L
+ 675 1323 mt 
+(Richard-Gasquet) s
+1647 1222 mt 1736 1222 L
+10621 1222 mt 10531 1222 L
+ 703 1266 mt 
+(Nicolas-Almagro) s
+1647 1164 mt 1736 1164 L
+10621 1164 mt 10531 1164 L
+ 909 1208 mt 
+(Gael-Monfils) s
+1647 1107 mt 1736 1107 L
+10621 1107 mt 10531 1107 L
+ 346 1151 mt 
+(Juan-Martin-Del-Potro) s
+1647 1050 mt 1736 1050 L
+10621 1050 mt 10531 1050 L
+ 750 1094 mt 
+(Tomas-Berdych) s
+1647  993 mt 1736  993 L
+10621  993 mt 10531  993 L
+ 476 1037 mt 
+(Juan-Carlos-Ferrero) s
+1647  936 mt 1736  936 L
+10621  936 mt 10531  936 L
+ 544  980 mt 
+(Jo-Wilfried-Tsonga) s
+1647  878 mt 1736  878 L
+10621  878 mt 10531  878 L
+ 915  922 mt 
+(David-Ferrer) s
+1647  821 mt 1736  821 L
+10621  821 mt 10531  821 L
+ 720  865 mt 
+(Robin-Soderling) s
+1647  764 mt 1736  764 L
+10621  764 mt 10531  764 L
+ 886  808 mt 
+(Rafael-Nadal) s
+1647  707 mt 1736  707 L
+10621  707 mt 10531  707 L
+ 900  751 mt 
+(Andy-Murray) s
+1647  649 mt 1736  649 L
+10621  649 mt 10531  649 L
+ 799  693 mt 
+(Roger-Federer) s
+1647  592 mt 1736  592 L
+10621  592 mt 10531  592 L
+ 758  636 mt 
+(Novak-Djokovic) s
+1647 6688 mt 10621 6688 L
+1647  564 mt 10621  564 L
+1647 6688 mt 1647  564 L
+10621 6688 mt 10621  564 L
+gs 1647 564 8975 6125 rc
+/c8 { 0.000000 0.000000 0.562500 sr} bdef
+c8
+0 0 0 -46 0 0 1647 6682 4 MP
+PP
+0 sg
+0 46 0 0 0 -46 0 0 1647 6682 5 MP stroke
+c8
+0 0 0 -46 0 0 1647 6625 4 MP
+PP
+0 sg
+0 46 0 0 0 -46 0 0 1647 6625 5 MP stroke
+c8
+0 0 0 -45 0 0 1647 6567 4 MP
+PP
+0 sg
+0 45 0 0 0 -45 0 0 1647 6567 5 MP stroke
+c8
+0 0 0 -46 0 0 1647 6510 4 MP
+PP
+0 sg
+0 46 0 0 0 -46 0 0 1647 6510 5 MP stroke
+c8
+0 0 0 -46 0 0 1647 6453 4 MP
+PP
+0 sg
+0 46 0 0 0 -46 0 0 1647 6453 5 MP stroke
+c8
+0 0 0 -46 0 0 1647 6396 4 MP
+PP
+0 sg
+0 46 0 0 0 -46 0 0 1647 6396 5 MP stroke
+c8
+0 0 0 -45 0 0 1647 6338 4 MP
+PP
+0 sg
+0 45 0 0 0 -45 0 0 1647 6338 5 MP stroke
+c8
+0 0 0 -46 0 0 1647 6281 4 MP
+PP
+0 sg
+0 46 0 0 0 -46 0 0 1647 6281 5 MP stroke
+c8
+-1495 0 0 -46 1495 0 1647 6224 4 MP
+PP
+0 sg
+0 46 -1495 0 0 -46 1495 0 1647 6224 5 MP stroke
+c8
+-1682 0 0 -46 1682 0 1647 6167 4 MP
+PP
+0 sg
+0 46 -1682 0 0 -46 1682 0 1647 6167 5 MP stroke
+c8
+-2093 0 0 -45 2093 0 1647 6109 4 MP
+PP
+0 sg
+0 45 -2093 0 0 -45 2093 0 1647 6109 5 MP stroke
+c8
+-2243 0 0 -46 2243 0 1647 6052 4 MP
+PP
+0 sg
+0 46 -2243 0 0 -46 2243 0 1647 6052 5 MP stroke
+c8
+-2307 0 0 -46 2307 0 1647 5995 4 MP
+PP
+0 sg
+0 46 -2307 0 0 -46 2307 0 1647 5995 5 MP stroke
+c8
+-2393 0 0 -46 2393 0 1647 5938 4 MP
+PP
+0 sg
+0 46 -2393 0 0 -46 2393 0 1647 5938 5 MP stroke
+c8
+-2475 0 0 -46 2475 0 1647 5881 4 MP
+PP
+0 sg
+0 46 -2475 0 0 -46 2475 0 1647 5881 5 MP stroke
+c8
+-2475 0 0 -46 2475 0 1647 5823 4 MP
+PP
+0 sg
+0 46 -2475 0 0 -46 2475 0 1647 5823 5 MP stroke
+c8
+-2512 0 0 -46 2512 0 1647 5766 4 MP
+PP
+0 sg
+0 46 -2512 0 0 -46 2512 0 1647 5766 5 MP stroke
+c8
+-2564 0 0 -46 2564 0 1647 5709 4 MP
+PP
+0 sg
+0 46 -2564 0 0 -46 2564 0 1647 5709 5 MP stroke
+c8
+-2564 0 0 -46 2564 0 1647 5652 4 MP
+PP
+0 sg
+0 46 -2564 0 0 -46 2564 0 1647 5652 5 MP stroke
+c8
+-2639 0 0 -45 2639 0 1647 5594 4 MP
+PP
+0 sg
+0 45 -2639 0 0 -45 2639 0 1647 5594 5 MP stroke
+c8
+-2761 0 0 -46 2761 0 1647 5537 4 MP
+PP
+0 sg
+0 46 -2761 0 0 -46 2761 0 1647 5537 5 MP stroke
+c8
+-2804 0 0 -46 2804 0 1647 5480 4 MP
+PP
+0 sg
+0 46 -2804 0 0 -46 2804 0 1647 5480 5 MP stroke
+c8
+-2884 0 0 -46 2884 0 1647 5423 4 MP
+PP
+0 sg
+0 46 -2884 0 0 -46 2884 0 1647 5423 5 MP stroke
+c8
+-2894 0 0 -45 2894 0 1647 5365 4 MP
+PP
+0 sg
+0 45 -2894 0 0 -45 2894 0 1647 5365 5 MP stroke
+c8
+-2991 0 0 -46 2991 0 1647 5308 4 MP
+PP
+0 sg
+0 46 -2991 0 0 -46 2991 0 1647 5308 5 MP stroke
+c8
+-2991 0 0 -46 2991 0 1647 5251 4 MP
+PP
+0 sg
+0 46 -2991 0 0 -46 2991 0 1647 5251 5 MP stroke
+c8
+-2991 0 0 -46 2991 0 1647 5194 4 MP
+PP
+0 sg
+0 46 -2991 0 0 -46 2991 0 1647 5194 5 MP stroke
+c8
+-3070 0 0 -45 3070 0 1647 5136 4 MP
+PP
+0 sg
+0 45 -3070 0 0 -45 3070 0 1647 5136 5 MP stroke
+c8
+-3205 0 0 -46 3205 0 1647 5079 4 MP
+PP
+0 sg
+0 46 -3205 0 0 -46 3205 0 1647 5079 5 MP stroke
+c8
+-3240 0 0 -46 3240 0 1647 5022 4 MP
+PP
+0 sg
+0 46 -3240 0 0 -46 3240 0 1647 5022 5 MP stroke
+c8
+-3263 0 0 -46 3263 0 1647 4965 4 MP
+PP
+0 sg
+0 46 -3263 0 0 -46 3263 0 1647 4965 5 MP stroke
+c8
+-3263 0 0 -46 3263 0 1647 4908 4 MP
+PP
+0 sg
+0 46 -3263 0 0 -46 3263 0 1647 4908 5 MP stroke
+c8
+-3283 0 0 -45 3283 0 1647 4850 4 MP
+PP
+0 sg
+0 45 -3283 0 0 -45 3283 0 1647 4850 5 MP stroke
+c8
+-3306 0 0 -46 3306 0 1647 4793 4 MP
+PP
+0 sg
+0 46 -3306 0 0 -46 3306 0 1647 4793 5 MP stroke
+c8
+-3365 0 0 -46 3365 0 1647 4736 4 MP
+PP
+0 sg
+0 46 -3365 0 0 -46 3365 0 1647 4736 5 MP stroke
+c8
+-3365 0 0 -46 3365 0 1647 4679 4 MP
+PP
+0 sg
+0 46 -3365 0 0 -46 3365 0 1647 4679 5 MP stroke
+c8
+-3418 0 0 -45 3418 0 1647 4621 4 MP
+PP
+0 sg
+0 45 -3418 0 0 -45 3418 0 1647 4621 5 MP stroke
+c8
+-3451 0 0 -46 3451 0 1647 4564 4 MP
+PP
+0 sg
+0 46 -3451 0 0 -46 3451 0 1647 4564 5 MP stroke
+c8
+-3451 0 0 -46 3451 0 1647 4507 4 MP
+PP
+0 sg
+0 46 -3451 0 0 -46 3451 0 1647 4507 5 MP stroke
+c8
+-3451 0 0 -46 3451 0 1647 4450 4 MP
+PP
+0 sg
+0 46 -3451 0 0 -46 3451 0 1647 4450 5 MP stroke
+c8
+-3451 0 0 -45 3451 0 1647 4392 4 MP
+PP
+0 sg
+0 45 -3451 0 0 -45 3451 0 1647 4392 5 MP stroke
+c8
+-3473 0 0 -46 3473 0 1647 4335 4 MP
+PP
+0 sg
+0 46 -3473 0 0 -46 3473 0 1647 4335 5 MP stroke
+c8
+-3511 0 0 -46 3511 0 1647 4278 4 MP
+PP
+0 sg
+0 46 -3511 0 0 -46 3511 0 1647 4278 5 MP stroke
+c8
+-3589 0 0 -46 3589 0 1647 4221 4 MP
+PP
+0 sg
+0 46 -3589 0 0 -46 3589 0 1647 4221 5 MP stroke
+c8
+-3589 0 0 -45 3589 0 1647 4163 4 MP
+PP
+0 sg
+0 45 -3589 0 0 -45 3589 0 1647 4163 5 MP stroke
+c8
+-3589 0 0 -46 3589 0 1647 4106 4 MP
+PP
+0 sg
+0 46 -3589 0 0 -46 3589 0 1647 4106 5 MP stroke
+c8
+-3632 0 0 -46 3632 0 1647 4049 4 MP
+PP
+0 sg
+0 46 -3632 0 0 -46 3632 0 1647 4049 5 MP stroke
+c8
+-3638 0 0 -46 3638 0 1647 3992 4 MP
+PP
+0 sg
+0 46 -3638 0 0 -46 3638 0 1647 3992 5 MP stroke
+c8
+-3656 0 0 -46 3656 0 1647 3935 4 MP
+PP
+0 sg
+0 46 -3656 0 0 -46 3656 0 1647 3935 5 MP stroke
+c8
+-3681 0 0 -45 3681 0 1647 3877 4 MP
+PP
+0 sg
+0 45 -3681 0 0 -45 3681 0 1647 3877 5 MP stroke
+c8
+-3695 0 0 -46 3695 0 1647 3820 4 MP
+PP
+0 sg
+0 46 -3695 0 0 -46 3695 0 1647 3820 5 MP stroke
+c8
+-3739 0 0 -46 3739 0 1647 3763 4 MP
+PP
+0 sg
+0 46 -3739 0 0 -46 3739 0 1647 3763 5 MP stroke
+c8
+-3756 0 0 -46 3756 0 1647 3706 4 MP
+PP
+0 sg
+0 46 -3756 0 0 -46 3756 0 1647 3706 5 MP stroke
+c8
+-3846 0 0 -45 3846 0 1647 3648 4 MP
+PP
+0 sg
+0 45 -3846 0 0 -45 3846 0 1647 3648 5 MP stroke
+c8
+-3911 0 0 -46 3911 0 1647 3591 4 MP
+PP
+0 sg
+0 46 -3911 0 0 -46 3911 0 1647 3591 5 MP stroke
+c8
+-3911 0 0 -46 3911 0 1647 3534 4 MP
+PP
+0 sg
+0 46 -3911 0 0 -46 3911 0 1647 3534 5 MP stroke
+c8
+-3965 0 0 -46 3965 0 1647 3477 4 MP
+PP
+0 sg
+0 46 -3965 0 0 -46 3965 0 1647 3477 5 MP stroke
+c8
+-3988 0 0 -45 3988 0 1647 3419 4 MP
+PP
+0 sg
+0 45 -3988 0 0 -45 3988 0 1647 3419 5 MP stroke
+c8
+-4059 0 0 -46 4059 0 1647 3362 4 MP
+PP
+0 sg
+0 46 -4059 0 0 -46 4059 0 1647 3362 5 MP stroke
+c8
+-4059 0 0 -46 4059 0 1647 3305 4 MP
+PP
+0 sg
+0 46 -4059 0 0 -46 4059 0 1647 3305 5 MP stroke
+c8
+-4096 0 0 -46 4096 0 1647 3248 4 MP
+PP
+0 sg
+0 46 -4096 0 0 -46 4096 0 1647 3248 5 MP stroke
+c8
+-4123 0 0 -46 4123 0 1647 3191 4 MP
+PP
+0 sg
+0 46 -4123 0 0 -46 4123 0 1647 3191 5 MP stroke
+c8
+-4123 0 0 -45 4123 0 1647 3133 4 MP
+PP
+0 sg
+0 45 -4123 0 0 -45 4123 0 1647 3133 5 MP stroke
+c8
+-4173 0 0 -46 4173 0 1647 3076 4 MP
+PP
+0 sg
+0 46 -4173 0 0 -46 4173 0 1647 3076 5 MP stroke
+c8
+-4206 0 0 -46 4206 0 1647 3019 4 MP
+PP
+0 sg
+0 46 -4206 0 0 -46 4206 0 1647 3019 5 MP stroke
+c8
+-4206 0 0 -46 4206 0 1647 2962 4 MP
+PP
+0 sg
+0 46 -4206 0 0 -46 4206 0 1647 2962 5 MP stroke
+c8
+-4212 0 0 -45 4212 0 1647 2904 4 MP
+PP
+0 sg
+0 45 -4212 0 0 -45 4212 0 1647 2904 5 MP stroke
+c8
+-4237 0 0 -46 4237 0 1647 2847 4 MP
+PP
+0 sg
+0 46 -4237 0 0 -46 4237 0 1647 2847 5 MP stroke
+c8
+-4291 0 0 -46 4291 0 1647 2790 4 MP
+PP
+0 sg
+0 46 -4291 0 0 -46 4291 0 1647 2790 5 MP stroke
+c8
+-4332 0 0 -46 4332 0 1647 2733 4 MP
+PP
+0 sg
+0 46 -4332 0 0 -46 4332 0 1647 2733 5 MP stroke
+c8
+-4351 0 0 -45 4351 0 1647 2675 4 MP
+PP
+0 sg
+0 45 -4351 0 0 -45 4351 0 1647 2675 5 MP stroke
+c8
+-4487 0 0 -46 4487 0 1647 2618 4 MP
+PP
+0 sg
+0 46 -4487 0 0 -46 4487 0 1647 2618 5 MP stroke
+c8
+-4487 0 0 -46 4487 0 1647 2561 4 MP
+PP
+0 sg
+0 46 -4487 0 0 -46 4487 0 1647 2561 5 MP stroke
+c8
+-4487 0 0 -46 4487 0 1647 2504 4 MP
+PP
+0 sg
+0 46 -4487 0 0 -46 4487 0 1647 2504 5 MP stroke
+c8
+-4487 0 0 -45 4487 0 1647 2446 4 MP
+PP
+0 sg
+0 45 -4487 0 0 -45 4487 0 1647 2446 5 MP stroke
+c8
+-4574 0 0 -46 4574 0 1647 2389 4 MP
+PP
+0 sg
+0 46 -4574 0 0 -46 4574 0 1647 2389 5 MP stroke
+c8
+-4582 0 0 -46 4582 0 1647 2332 4 MP
+PP
+0 sg
+0 46 -4582 0 0 -46 4582 0 1647 2332 5 MP stroke
+c8
+-4622 0 0 -46 4622 0 1647 2275 4 MP
+PP
+0 sg
+0 46 -4622 0 0 -46 4622 0 1647 2275 5 MP stroke
+c8
+-4682 0 0 -46 4682 0 1647 2218 4 MP
+PP
+0 sg
+0 46 -4682 0 0 -46 4682 0 1647 2218 5 MP stroke
+c8
+-4731 0 0 -45 4731 0 1647 2160 4 MP
+PP
+0 sg
+0 45 -4731 0 0 -45 4731 0 1647 2160 5 MP stroke
+c8
+-4819 0 0 -46 4819 0 1647 2103 4 MP
+PP
+0 sg
+0 46 -4819 0 0 -46 4819 0 1647 2103 5 MP stroke
+c8
+-4819 0 0 -46 4819 0 1647 2046 4 MP
+PP
+0 sg
+0 46 -4819 0 0 -46 4819 0 1647 2046 5 MP stroke
+c8
+-4910 0 0 -46 4910 0 1647 1989 4 MP
+PP
+0 sg
+0 46 -4910 0 0 -46 4910 0 1647 1989 5 MP stroke
+c8
+-5038 0 0 -45 5038 0 1647 1931 4 MP
+PP
+0 sg
+0 45 -5038 0 0 -45 5038 0 1647 1931 5 MP stroke
+c8
+-5128 0 0 -46 5128 0 1647 1874 4 MP
+PP
+0 sg
+0 46 -5128 0 0 -46 5128 0 1647 1874 5 MP stroke
+c8
+-5128 0 0 -46 5128 0 1647 1817 4 MP
+PP
+0 sg
+0 46 -5128 0 0 -46 5128 0 1647 1817 5 MP stroke
+c8
+-5195 0 0 -46 5195 0 1647 1760 4 MP
+PP
+0 sg
+0 46 -5195 0 0 -46 5195 0 1647 1760 5 MP stroke
+c8
+-5195 0 0 -45 5195 0 1647 1702 4 MP
+PP
+0 sg
+0 45 -5195 0 0 -45 5195 0 1647 1702 5 MP stroke
+c8
+-5270 0 0 -46 5270 0 1647 1645 4 MP
+PP
+0 sg
+0 46 -5270 0 0 -46 5270 0 1647 1645 5 MP stroke
+c8
+-5288 0 0 -46 5288 0 1647 1588 4 MP
+PP
+0 sg
+0 46 -5288 0 0 -46 5288 0 1647 1588 5 MP stroke
+c8
+-5302 0 0 -46 5302 0 1647 1531 4 MP
+PP
+0 sg
+0 46 -5302 0 0 -46 5302 0 1647 1531 5 MP stroke
+c8
+-5311 0 0 -46 5311 0 1647 1474 4 MP
+PP
+0 sg
+0 46 -5311 0 0 -46 5311 0 1647 1474 5 MP stroke
+c8
+-5341 0 0 -46 5341 0 1647 1416 4 MP
+PP
+0 sg
+0 46 -5341 0 0 -46 5341 0 1647 1416 5 MP stroke
+c8
+-5448 0 0 -46 5448 0 1647 1359 4 MP
+PP
+0 sg
+0 46 -5448 0 0 -46 5448 0 1647 1359 5 MP stroke
+c8
+-5537 0 0 -46 5537 0 1647 1302 4 MP
+PP
+0 sg
+0 46 -5537 0 0 -46 5537 0 1647 1302 5 MP stroke
+c8
+-5570 0 0 -46 5570 0 1647 1245 4 MP
+PP
+0 sg
+0 46 -5570 0 0 -46 5570 0 1647 1245 5 MP stroke
+c8
+-5634 0 0 -45 5634 0 1647 1187 4 MP
+PP
+0 sg
+0 45 -5634 0 0 -45 5634 0 1647 1187 5 MP stroke
+c8
+-5816 0 0 -46 5816 0 1647 1130 4 MP
+PP
+0 sg
+0 46 -5816 0 0 -46 5816 0 1647 1130 5 MP stroke
+c8
+-5840 0 0 -46 5840 0 1647 1073 4 MP
+PP
+0 sg
+0 46 -5840 0 0 -46 5840 0 1647 1073 5 MP stroke
+c8
+-5852 0 0 -46 5852 0 1647 1016 4 MP
+PP
+0 sg
+0 46 -5852 0 0 -46 5852 0 1647 1016 5 MP stroke
+c8
+-5852 0 0 -45 5852 0 1647 958 4 MP
+PP
+0 sg
+0 45 -5852 0 0 -45 5852 0 1647 958 5 MP stroke
+c8
+-6502 0 0 -46 6502 0 1647 901 4 MP
+PP
+0 sg
+0 46 -6502 0 0 -46 6502 0 1647 901 5 MP stroke
+c8
+-6954 0 0 -46 6954 0 1647 844 4 MP
+PP
+0 sg
+0 46 -6954 0 0 -46 6954 0 1647 844 5 MP stroke
+c8
+-7104 0 0 -46 7104 0 1647 787 4 MP
+PP
+0 sg
+0 46 -7104 0 0 -46 7104 0 1647 787 5 MP stroke
+c8
+-7148 0 0 -45 7148 0 1647 729 4 MP
+PP
+0 sg
+0 45 -7148 0 0 -45 7148 0 1647 729 5 MP stroke
+c8
+-7435 0 0 -46 7435 0 1647 672 4 MP
+PP
+0 sg
+0 46 -7435 0 0 -46 7435 0 1647 672 5 MP stroke
+c8
+-8125 0 0 -46 8125 0 1647 615 4 MP
+PP
+0 sg
+0 46 -8125 0 0 -46 8125 0 1647 615 5 MP stroke
+0 -6124 1647 6688 2 MP stroke
+gr
+
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold /ISOLatin1Encoding 144 FMSR
+
+4076  464 mt 
+(Average Probability \(Empirical Ratio\) of each player winnin\
+g) s
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 180 FMSR
+
+4016 7020 mt 
+(Empirical Ratio \(Average Probability\) of Player to Win) s
+ 170 4143 mt  -90 rotate
+(Player Name) s
+90 rotate
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
